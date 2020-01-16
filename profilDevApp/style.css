@@ -1,0 +1,64 @@
+html {
+    background: url("get.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    width: 60%;
+    height: 40px;
+  
+    margin: 30px 300px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 39px 50px;
+  }
+  h3 {
+    color: blueviolet;
+    width: 900px;
+    margin: 20px -60px 0px 90px;
+    text-decoration-style: dashed;
+    /* padding: 0px 0px 20px 10px; */
+    line-height: 1.5em;
+    height: 30px;
+  }
+  p {
+    text-align: center;
+    color: blueviolet;
+    width: 900px;
+    height: 30px;
+    text-align: left;
+    margin: 7px -2px;
+  }
+  .main_input-container {
+    text-align: center;
+    margin: 50px;
+  }
+  .btn {
+    width: 80px;
+    height: 22px;
+    background: chartreuse;
+    /* margin-bottom: 2rem; */
+    color: blue;
+    border-radius: 5px;
+  }
+  
+  .main20 {
+    margin: 40px;
+    height: 600px;
+    /* box-shadow: 0px 5px 15px 0px; */
+    border-radius: 5px;
+  }
+  
+  #profile {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: -450px 39px 2px -21px;
+    border: 2px white;
+    box-shadow: 0px 5px 15px 0px;
+    border-radius: 5px;
+    border-radius: 5px;
+  } 

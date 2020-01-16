@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile Generator App</title>
+  </head>
+  <body>
+    <div
+      class="black"
+      style="background-image: -webkit-linear-gradient(top, bisque 0,  bisque 100%);"
+    >
+      <div class="main20" id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <div class="main__text-container">
+                <h1 class="main_title">Profile Generator GH</h1>
+           
+                <h3>
+                  This application dynamically generates a PDF profile from a
+                  GitHub username
+                </h3>
+              </div>
+              <div class="main_input-container">
+                <input
+                  type="text"
+                  id="search"
+                  class="main_input"
+                  placeholder="Enter a Username..."
+                />
+                <span>
+                  <button class="btn ">searchBtn</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="main__profile-container">
+            <div class="main__profile">
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="main__profile-name main__profile-key">Name:</p>
+
+                  <p class="main__profile-username main__profile-key">
+                    Username:
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="main__profile-repos main__profile-key">
+                    Public Repositories:
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="main__profile-followers main__profile-key">
+                    Followers:
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="main__profile-following main__profile-key">
+                    Following:
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="main__profile-url main__profile-key">Url:</p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="main__profile-location main__profile-key">Location:</p>
+                </div>
+                
+                <div class="col-md-6">
+                  <p class="main__profile-starred_url main__profile-key">Star:</p>
+                </div>
+                
+                <div class="col-md-6">
+                  <p class="main__profile-bio main__profile-key">
+                    Bio:
+                  </p>
+                </div>
+                
+                <!-- <div class="col-md-3"> 
+                  <p class="main__profile-avatar_url main__profile-key"></p> 
+                  <img class="thumbnail avatar" src="avatar_url">
+                </div>
+              </div> -->
+
+              <div id="profile"></div>
+              
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="logic.js"></script>
+  
+  </body>
+</html>
